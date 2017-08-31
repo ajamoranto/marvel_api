@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+#nav {
+  display: flex;
+  flex-direction: row-reverse;
+  padding-top: 30px;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+}
+
+.heroes {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+p {
+  display: none;
+}
+
+.thumbnail>img {
+  width: 310px;
+  height: 310px;
+}
+
+h4 {
+  text-align: center;
+}
